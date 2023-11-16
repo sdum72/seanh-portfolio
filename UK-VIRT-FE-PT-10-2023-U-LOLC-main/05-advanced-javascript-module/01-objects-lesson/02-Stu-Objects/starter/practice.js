@@ -4,6 +4,12 @@ var customerOder = {
     orderReady: false,
 }
 
+console.log(Object.keys(customerOder))
+
+console.log(Object.values(customerOder))
+
+console.log(Object.entries(customerOder))
+
 console.log(customerOder.drinkName)
 
 console.log(customerOder.sugars)
